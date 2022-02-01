@@ -53,4 +53,6 @@ Additional notes:
 1. [git submodule init] inside the overall project directory (ex. FRC2022)
 2. [git submodule update] also inside the overall project directory (ex. FRC2022)
 
+You may have to run through steps 1-3 again 
+
 https://git-scm.com/book/en/v2/Git-Tools-Submodules#:~:text=The%20DbConnector%20directory%20is%20there%2C%20but%20empty.%20You%20must%20run%20two%20commands%3A%20git%20submodule%20init%20to%20initialize%20your%20local%20configuration%20file%2C%20and%20git%20submodule%20update%20to%20fetch%20all%20the%20data%20from%20that%20project%20and%20check%20out%20the%20appropriate%20commit%20listed%20in%20your%20superproject%3A
