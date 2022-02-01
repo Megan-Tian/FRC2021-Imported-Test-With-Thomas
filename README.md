@@ -44,3 +44,13 @@ To fix:
 
 Additional notes:
 - there is probably a way to specify build order in gradle
+
+### 4. When there's new versions of the 2910/robototes updates
+- The version used in the corrections done with Thomas are: de9c0a5b10a2ea9063ec1013bceab0de5925bcb7
+- When you clone this repo (or the FRC2022 repo on @Lakemonsters 2635 that was cloned off of this project), the common folder is there but it's empty
+- To get the code in the common library, do as follows:
+
+1. [git submodule init] inside the overall project directory (ex. FRC2022)
+2. [git submodule update] also inside the overall project directory (ex. FRC2022)
+
+https://git-scm.com/book/en/v2/Git-Tools-Submodules#:~:text=The%20DbConnector%20directory%20is%20there%2C%20but%20empty.%20You%20must%20run%20two%20commands%3A%20git%20submodule%20init%20to%20initialize%20your%20local%20configuration%20file%2C%20and%20git%20submodule%20update%20to%20fetch%20all%20the%20data%20from%20that%20project%20and%20check%20out%20the%20appropriate%20commit%20listed%20in%20your%20superproject%3A
