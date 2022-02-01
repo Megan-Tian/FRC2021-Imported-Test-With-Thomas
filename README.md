@@ -21,9 +21,15 @@
 	- updates to 2022 branch
 
 ### 1. build.gradle and settings.gradle in main robot project
-`include 'common'` in settings.gradle (at bottom of page)
+For common library (just swerve)
+- `include 'common'` in settings.gradle (at bottom of page)
+- `implementation project(':common')` inside dependencies{} in build.gradle
 
-`implementation project(':common')` inside dependencies{} in build.gradle
+For common:robot library
+- `implementation project(':common:robot')` inside dependencies{} in build.gradle
+- `include ':common:robot'` in settings.gradle (at bottom of page)
+
+Will need to include both the things above for Gradle to work
 
 ### 2. Set `id 'net.ltgt.errorprone' version '2.0.2'` in plugins{} function in the Common build.gradle
 - we added `version '2.0.2'` where there previously was no version specification 
