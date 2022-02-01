@@ -9,14 +9,14 @@
 - get 2022_updates branch and pull the branch down
 
 3 command line arguments:
-	git init (to be able to do the other things)
-	git submodule add https://github.com/robototes/2910Common.git common
-		clones master branch
-	git config -f .gitmodules submodule.common.branch 2022_update
-		switches the branch to the 2022_update one
-		may need to do a git fetch (?)
-	git submodule update --remote common
-		updates to 2022 branch
+- git init (to be able to do the other things)
+- git submodule add https://github.com/robototes/2910Common.git common
+	- clones master branch
+- git config -f .gitmodules submodule.common.branch 2022_update
+	- switches the branch to the 2022_update one
+	- may need to do a git fetch (?)
+- git submodule update --remote common
+	- updates to 2022 branch
 
 ### 1. build.gradle and settings.gradle in main robot project
 [include 'common'] in settings.gradle (at bottom of page)
