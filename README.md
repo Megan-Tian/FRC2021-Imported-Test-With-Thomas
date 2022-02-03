@@ -49,6 +49,7 @@ To fix:
 
 Additional notes:
 - there is probably a way to specify build order in gradle
+- DON'T FORGET TO ADD REV LIBRARY IN VENDORDEPS - not adding will also cause build to fail
 
 ### 4. When there's new versions of the 2910/robototes updates
 - The version used in the corrections done with Thomas are: de9c0a5b10a2ea9063ec1013bceab0de5925bcb7
